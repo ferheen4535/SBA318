@@ -1,0 +1,107 @@
+.container {
+    background-image: url('images/background.png');
+    background-size: 1500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    display:flex;
+    flex-direction: column;
+    }
+
+    .topnav {
+      margin: 10px;
+      padding-left: 250px;
+      padding-top: 20px;
+      width: 1209px;
+    }
+    
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      float: left;
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    /* Change the color of links on hover */
+    .topnav a:hover {
+      background-color: #8ce5d7;
+      
+    }
+    
+    /* Add an active class to highlight the current page */
+    .topnav a.active {
+      background-color: #8debe2a9;
+      color: white;
+    }
+    
+    /* Hide the link that should open and close the topnav on small screens */
+    .topnav .icon {
+      display: none;
+    }
+
+
+    .header {
+      margin: 0;
+      padding-left: 250px;
+      padding-top: 50px;
+      width: 1200px;
+      color: rgb(202, 244, 228);
+    }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(104, 186, 179);
+    text-align: left;
+   
+  }
+  
+  .formInfo {
+    margin: 0;
+    padding-left: 250px;
+    width: 1200px;
+
+  }
+  form {
+
+    margin: 0;
+      padding: 0px 0px 0px 10px;
+      width: 450px;
+    display: inline-block;
+    text-align: left;
+    background: rgba(125, 214, 187, 0.451);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(112, 85, 85, 0.1);
+  }
+  
+  input, select {
+    display: block;
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  
+  button {
+    background-color: rgb(143, 202, 185);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    }
+  
+
+    .adopt {
+
+      margin: 0;
+      padding-left: 300px;
+      padding-top: 50px;
+      width: 1200px;
+      color: white;
+      font-size: 20px;
+    }
