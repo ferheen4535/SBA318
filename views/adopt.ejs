@@ -8,6 +8,15 @@
 </head>
 <body>
 
- 
+  <div class="container">
+    <div class="adopt">
+      <h2>Congrats, <%= name %>!</h2>
+      <p>You adopted a <strong><%= color %></strong> unicorn with the power of <strong><%= power %></strong>!</p>
+      <img src="/images/<%= imageFile %>" alt="Unicorn" width="245">
+      <div>
+        <a href="/download?image=<%= imageFile %>"><button>Download Your Unicorn</button></a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
